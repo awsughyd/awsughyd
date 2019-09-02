@@ -23,11 +23,11 @@ export function Post({ date, fromNow, title, content }) {
 
 export default function BlogPost({ data: { markdownRemark: post } }) {
   const {
-    frontmatter: { title, date, fromNow, description }
+    frontmatter: { title, date, fromNow, description, ogImage }
   } = post;
   return (
     <Layout>
-      <SEO title={title} description={description} />
+      <SEO title={title} description={description} image={ogImage.sharp.original.src} />
       <Post title={title} date={date} fromNow={fromNow} content={post.html} />
     </Layout>
   );
@@ -43,6 +43,13 @@ export const pageQuery = graphql`
         fromNow: date(fromNow: true)
         title
         description
+        ogImage {
+          sharp:childImageSharp {
+            original {
+              src
+            }
+          }
+        }
       }
     }
   }

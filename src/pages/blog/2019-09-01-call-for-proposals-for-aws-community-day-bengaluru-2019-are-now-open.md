@@ -4,6 +4,7 @@ title: Call for Proposals for AWS Community Day Hyderabad 2019 are now open!
 date: 2019-09-01T08:24:36.366Z
 isPublished: true
 description: AWSHYD Community Day is comming soon and we're now accepting speaker registrations
+ogImage: /static/images/cfp.jpg
 tags:
   - community day 2019
   - cfp

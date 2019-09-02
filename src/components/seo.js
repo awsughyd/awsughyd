@@ -3,40 +3,51 @@ import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 import { useStaticQuery, graphql } from "gatsby";
 
-function SEO({ description, lang, meta, keywords, title }) {
+import ogImage from '../images/logo_rounded.png'
+
+function SEO({ description, lang, meta, keywords, title, image = ogImage }) {
   const data = useStaticQuery(graphql`
     query DefaultSEOQuery {
       site {
         siteMetadata {
           title
           description
-          author
+          author,
+          siteUrl
         }
       }
     }
   `);
 
   const metaDescription = description || data.site.siteMetadata.description;
-
+  const metaTitle = title ? `${title} | ${data.site.siteMetadata.title}` : data.site.siteMetadata.title
+  const metaImage = image.startsWith(`http`) ? image : `${data.site.siteMetadata.siteUrl}${image}`;
   return (
     <Helmet
       htmlAttributes={{
         lang
       }}
-      title={title}
-      titleTemplate={`%s | ${data.site.siteMetadata.title}`}
+      title={metaTitle}
       meta={[
         {
           name: `description`,
           content: metaDescription
         },
         {
+          name: `image`,
+          content: metaImage
+        },
+        {
           property: `og:title`,
-          content: title
+          content: metaTitle
         },
         {
           property: `og:description`,
           content: metaDescription
+        },
+        {
+          property: `og:image`,
+          content: metaImage
         },
         {
           property: `og:type`,
@@ -52,11 +63,15 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           name: `twitter:title`,
-          content: title
+          content: metaTitle
         },
         {
           name: `twitter:description`,
           content: metaDescription
+        },
+        {
+          name: `twitter:image`,
+          content: metaImage
         }
       ]
         .concat(
