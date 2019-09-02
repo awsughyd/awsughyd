@@ -28,7 +28,7 @@ export default function BlogPost({ data: { markdownRemark: post } }) {
   return (
     <Layout>
       <SEO title={title} description={description} />
-      <Post title={title} date={data} fromNow={fromNow} content={html} />
+      <Post title={title} date={date} fromNow={fromNow} content={html} />
     </Layout>
   );
 }
