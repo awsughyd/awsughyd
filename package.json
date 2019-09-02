@@ -72,6 +72,7 @@
     "gatsby-transformer-remark": "^2.6.19",
     "gatsby-transformer-sharp": "^2.2.12",
     "lodash.kebabcase": "^4.1.1",
+    "netlify-cms-app": "^2.9.7",
     "prettier": "^1.18.2",
     "tailwindcss": "^1.1.2",
     "typescript": "^3.6.2"
