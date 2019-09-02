@@ -9,6 +9,8 @@ tags:
   - cfp
 ---
 
+![CFP Image](/static/images/cfp.jpg)
+
 [AWS Users Group Hyderabad](https://www.awsughyd.com/) is back with a bang to host the most awaited event, [AWS Community Day Hyderabad 2019](https://communityday.awsughyd.com), unveiling success stories, use cases & much more from industry leaders.
 
 We're now inviting talk proposals for AWS Community Day Hyderabad 2019. Tell us about your use cases, success stories, lessons learned from failures, share your challenges and what you learned along the way. We're looking for real-world use cases and lessons learned more than simple tutorial rundowns.

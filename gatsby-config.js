@@ -30,6 +30,13 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
+        path: `${__dirname}/static/images`,
+        name: "uploads"
+      }
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
         path: `${__dirname}/src/pages`,
         name: "pages"
       }
@@ -41,18 +48,20 @@ module.exports = {
           {
             resolve: `gatsby-remark-relative-images`,
             options: {
-              name: "images"
+              name: "uploads"
             }
           },
           {
             resolve: "gatsby-remark-images",
             options: {
-              maxWidth: 786,
               backgroundColor: `#ffffff`
             }
           },
           {
-            resolve: "gatsby-remark-copy-linked-files"
+            resolve: "gatsby-remark-copy-linked-files",
+            options: {
+              destinationDir: "static"
+            }
           },
           {
             resolve: "gatsby-remark-external-links",
