@@ -61,7 +61,7 @@ function CFPPage() {
             </div>
             <div className="flex-1">
               <div className="shadow bg-white p-4 m-4 rounded-lg">
-                <h1 className="text-xl text-center">Fill this form</h1>
+                <h1 className="text-xl text-center">CFP form coming soon</h1>
               </div>
             </div>
           </div>

@@ -25,7 +25,7 @@ Please fill up the CFP form on this [Page](/cfp)
 
 ### Important dates to remember:
 
-- September 1st, 2019: CFP opens
+- September 10th, 2019: CFP opens
 - September 25th, 2019: Last date for submission of CFP
 - November 1st, 2019: Speaker list announced.
 - November 10th, 2019: Day of the event.
