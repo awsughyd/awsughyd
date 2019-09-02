@@ -41,7 +41,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-relative-images`,
             options: {
-              name: "uploads"
+              name: "images"
             }
           },
           {
@@ -85,6 +85,12 @@ module.exports = {
         purgeOnly: [`src/css/style.css`]
       }
     },
-    `gatsby-plugin-offline`
+    {
+      resolve: "gatsby-plugin-netlify-cms",
+      options: {
+        modulePath: `${__dirname}/src/cms/index.js`
+      }
+    },
+    `gatsby-plugin-netlify`
   ]
 };
