@@ -9,7 +9,6 @@ tags:
   - community day 2019
   - cfp
 ---
-
 ![CFP Image](/static/images/cfp.jpg)
 
 [AWS Users Group Hyderabad](https://www.awsughyd.com/) is back with a bang to host the most awaited event, [AWS Community Day Hyderabad 2019](https://communityday.awsughyd.com), unveiling success stories, use cases & much more from industry leaders.
