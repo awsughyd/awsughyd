@@ -6,6 +6,10 @@ description: >-
   AWSHYD Community Day is comming soon and we're now accepting speaker
   registrations
 ogImage: /images/cfp.jpg
+authors:
+  - avatar: /static/images/logo_rounded.png
+    name: awsughyd
+    twitter: awsughyd
 tags:
   - community day 2019
   - cfp
