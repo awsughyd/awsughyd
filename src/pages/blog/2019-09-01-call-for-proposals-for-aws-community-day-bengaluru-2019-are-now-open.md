@@ -2,14 +2,16 @@
 templateKey: blog-post
 title: Call for Proposals for AWS Community Day Hyderabad 2019 are now open!
 date: 2019-09-01T08:24:36.366Z
-isPublished: true
-description: AWSHYD Community Day is comming soon and we're now accepting speaker registrations
-ogImage: /static/images/cfp.jpg
+description: >-
+  AWSHYD Community Day is comming soon and we're now accepting speaker
+  registrations
+ogImage: /images/cfp.jpg
 tags:
   - community day 2019
   - cfp
+isPublished: true
 ---
-![CFP Image](/static/images/cfp.jpg)
+![CFP Image](/images/cfp.jpg)
 
 [AWS Users Group Hyderabad](https://www.awsughyd.com/) is back with a bang to host the most awaited event, [AWS Community Day Hyderabad 2019](https://communityday.awsughyd.com), unveiling success stories, use cases & much more from industry leaders.
 
@@ -25,7 +27,7 @@ Please fill up the CFP form on this [Page](/cfp)
 
 ### Important dates to remember:
 
-- September 10th, 2019: CFP opens
-- September 25th, 2019: Last date for submission of CFP
-- November 1st, 2019: Speaker list announced.
-- November 10th, 2019: Day of the event.
+* September 10th, 2019: CFP opens
+* September 25th, 2019: Last date for submission of CFP
+* November 1st, 2019: Speaker list announced.
+* November 10th, 2019: Day of the event.
